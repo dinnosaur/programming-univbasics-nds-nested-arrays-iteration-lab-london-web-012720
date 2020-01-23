@@ -23,7 +23,7 @@ index1 =1
 while index < src.length 
 {
   if src[index][0] > src[index][index1]
-    outer_array<< src[index][0]
+    outer_array << src[index][0]
   else
     outer_array << src[index][index1]
     
@@ -31,7 +31,7 @@ while index < src.length
 index +=1
   }
 
-   outer_array
+  return outer_array
 
 
 end
