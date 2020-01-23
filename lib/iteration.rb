@@ -18,7 +18,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
 
 outer_array = []
-index=0
+index= 0
 index1 =1
 while index < src.length 
 {
@@ -29,8 +29,7 @@ while index < src.length
     
   end
 index +=1
-  
-}
+  }
 
    outer_array
 
