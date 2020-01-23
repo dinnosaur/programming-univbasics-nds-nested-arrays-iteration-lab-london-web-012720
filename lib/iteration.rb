@@ -59,5 +59,5 @@ if src[index][0] % 2 && src[index][1] % 2
 end
     index +=1
   end
-  
-
+  return total
+end
