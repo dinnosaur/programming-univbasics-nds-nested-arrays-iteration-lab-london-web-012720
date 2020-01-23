@@ -52,12 +52,11 @@ index =0
 while index < src.length do
 
 if src[index][0] % 2 == 0 && src[index][1] % 2 == 0
-
- x=0
-  else
- total += src[index][0]
+total += src[index][0]
  total += src[index][1]
-
+ 
+else
+x=0
 end
     index +=1
   end
