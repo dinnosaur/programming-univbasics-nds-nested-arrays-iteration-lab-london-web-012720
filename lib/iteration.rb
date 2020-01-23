@@ -48,19 +48,16 @@ def total_even_pairs(src)
   # this!
   
 total=0 
-
+index =0
 while index < src.length do
 
 if src[index][0] % 2 && src[index][1] % 2
- 
-    
+ x=12
+  else
  total +=src[index][0]
  total +=src[index[1]
-    
-    end
+end
     index +1
   end
-  
-  
   
 end
