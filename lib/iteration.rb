@@ -33,12 +33,6 @@ while index < src.length
 
 
 
-if number > number[0] 
-insert number2 in array 
-else 
-  
-insert number1 in array 
-end
 
 
 
