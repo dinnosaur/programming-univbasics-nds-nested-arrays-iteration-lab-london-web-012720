@@ -51,9 +51,12 @@ total=0
 
 
 
-if src[]
-
-  
+if src[index][0] % src[index][1]
+    outer_array << src[index][0]
+  else
+    total +=src
+    
+  end
   
   
   
