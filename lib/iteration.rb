@@ -27,9 +27,10 @@ while index < src.length
   else
     outer_array << src[index][index1]
     index +=1
+  end
 }
 
-   
+   outer_array
 
 
 end
