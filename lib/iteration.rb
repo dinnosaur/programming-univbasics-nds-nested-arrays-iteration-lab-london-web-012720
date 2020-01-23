@@ -22,7 +22,7 @@ index= 0
 index1 =1
 while index < src.length do
 
-  if src[index][0] > src[index][index1]
+  if src[index][0] %2 src[index][index1]
     outer_array << src[index][0]
   else
     outer_array << src[index][index1]
@@ -56,8 +56,10 @@ if src[index][0] % 2 && src[index][1] % 2
   else
  total += src[index][0]
  total += src[index[1]
+
 end
     index +=1
   end
+  
   return total
 end
