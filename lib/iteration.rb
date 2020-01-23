@@ -28,7 +28,7 @@ while index < src.length
     outer_array << src[index][index1]
     
   end
-index +=1
+index += 1
   }
 
   return outer_array
