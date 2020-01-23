@@ -53,6 +53,7 @@ while index < src.length do
 
 if (src[index][0] % 2) && (src[index][1] % 2)
  x=12
+ 
   else
  total += src[index][0]
  total += src[index][1]
