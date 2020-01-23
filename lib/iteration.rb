@@ -51,8 +51,9 @@ total=0
 
 while index < src.length do
 
-if src[index][0] % src[index][1]
-    
+if src[index][0] % 2 
+ 
+ else   
  total +=src
     end
     index +1
