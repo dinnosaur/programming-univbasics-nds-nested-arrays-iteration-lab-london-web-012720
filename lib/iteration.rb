@@ -18,9 +18,17 @@ def find_greater_pair(src)
   # that are in the inner Arrays
 
 outer_array = []
-index=0 
-while index< src.length 
+index=0
+index1 =1
+while index < src.length 
 {
+  if src[index][0] > src[index][index1]
+    outer_array<< src[index][0]
+  else
+    outer_array << src[index][index1]
+    index +=1
+}
+
    
 
 
