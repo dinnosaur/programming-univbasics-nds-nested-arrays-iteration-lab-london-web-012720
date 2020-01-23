@@ -20,8 +20,8 @@ def find_greater_pair(src)
 outer_array = []
 index= 0
 index1 =1
-while index < src.length 
-{
+while index < src.length do
+
   if src[index][0] > src[index][index1]
     outer_array << src[index][0]
   else
@@ -29,7 +29,7 @@ while index < src.length
     
   end
 index += 1
-  }
+end
 
   return outer_array
 
