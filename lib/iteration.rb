@@ -54,10 +54,10 @@ while index < src.length do
 if src[index][0] % 2 && src[index][1] % 2
  x=12
   else
- total +=src[index][0]
- total +=src[index[1]
+ total += src[index][0]
+ total += src[index[1]
 end
-    index +1
+    index +=1
   end
   
 end
