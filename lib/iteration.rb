@@ -56,6 +56,7 @@ if src[index][0] % src[index][1]
   else
     total +=src
     
+    
   end
   
   
