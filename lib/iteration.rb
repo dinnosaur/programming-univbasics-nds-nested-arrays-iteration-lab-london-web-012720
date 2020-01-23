@@ -24,7 +24,7 @@ while index < src.length do
  
  while index1 < src[index].length do
  
-  if src[index][0] > src[index][index1]
+  if src[index][src[]] > src[index][index1]
     outer_array << src[index][0]
   else
     outer_array << src[index][index1]
