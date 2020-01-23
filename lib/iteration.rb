@@ -19,10 +19,10 @@ def find_greater_pair(src)
 
 outer_array = []
 index=0 
-while index< 
+while index< src.length
+{
 if number2 > number1 
 insert number2 in array 
-
 else 
 insert number1 in array 
 end
