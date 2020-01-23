@@ -51,10 +51,11 @@ total=0
 
 while index < src.length do
 
-if src[index][0] % 2 
+if src[index][0] % 2 && src[index][1] % 2
  
  else   
- total +=src
+ total +=src[index][0]
+ total +=src[index[1]
     end
     index +1
   end
